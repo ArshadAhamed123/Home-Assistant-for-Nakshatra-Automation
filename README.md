@@ -1,1 +1,3 @@
 # Home-Assistant-for-Nakshatra-Automation
+
+This project contains a Python script that publishes sensor values (temperature, humidity, and vibration) to an MQTT broker using the paho-mqtt library. It was created as part of the Nakshatra Automation assignment. The script includes my name (Arshad Ahamed N), register number (42733010), and publishes data to the topic home/arshadahamedn-2025/sensor. The MQTT broker used is Mosquitto running on my local machine, and Home Assistant is configured to read these values and display them on the dashboard. The script runs continuously and sends a JSON payload every few seconds.
